@@ -1,0 +1,3 @@
+<button (click)="showDetail()">Display details</button>
+<p *ngIf="detail">Password = "Tuna"</p>
+<p [ngStyle]="{backgroundColor: getBackgroundColor(time),color: getColor(time)}" *ngFor="let time of timeStamp">{{ time }}</p>
